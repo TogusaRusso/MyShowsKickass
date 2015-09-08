@@ -4,7 +4,7 @@
 // @description Add icon for KickAss.to torrent tracker for each TV series
 // @include     http://myshows.me/profile/
 // @match       http://myshows.me/profile/
-// @version     0.3
+// @version     0.4
 // @grant       none
 // ==/UserScript==
 
@@ -13,7 +13,7 @@ $(function(){
     $('div.plateHint').remove();
     $("span[class^='subHeader show'").after(function(){
             var tv_series=encodeURIComponent($(this).text().replace(/[^a-z0-9\s]/gi, ''));
-            return '<a target="_blank" title="kickass.to" href="https://kickass.to/usearch/'+ tv_series + '/?field=time_add&sorder=desc">   <img src="https://kastatic.com/images/logos/kickasstorrents_48x48.png" height="24"  width="24"></a>';
+            return '<a target="_blank" title="kickass.to" href="https://kickass.to/usearch/'+ tv_series + '/?field=time_add&sorder=desc">   <img src="https://kat.cr/content/images/logos/kickasstorrents_48x48.png" height="24"  width="24"></a>';
      }); 
 
 });
