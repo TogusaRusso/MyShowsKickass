@@ -4,7 +4,7 @@
 // @description Add icon for KickAss.to torrent tracker for each TV series
 // @include     http://myshows.me/profile/
 // @match       http://myshows.me/profile/
-// @version     0.5.1
+// @version     0.5.2
 // @grant       none
 // ==/UserScript==
 
@@ -14,7 +14,10 @@ $(function(){
     $("span[class^='subHeader show'").after(function(){
             var tv_urls = {
                 "Doctor Who": "https://kat.cr/doctor-who-2005-tv1763/",
-                "My Little Pony: Friendship is Magic": "https://kat.cr/my-little-pony-friendship-is-magic-tv12949/"
+                "My Little Pony: Friendship is Magic": "https://kat.cr/my-little-pony-friendship-is-magic-tv12949/",
+                "Guardians of the Galaxy": "https://kat.cr/marvel-s-guardians-of-the-galaxy-tv24154/",
+                "Ash vs Evil Dead": "https://kat.cr/ash-vs-evil-dead-tv25084/",
+                "Jekyll & Hyde": "https://kat.cr/jekyll-hyde-tv25058/"
             };
             var name = $(this).text();
             var tv_series=encodeURIComponent(name.replace(/[^a-z0-9\s]/gi, ''));
