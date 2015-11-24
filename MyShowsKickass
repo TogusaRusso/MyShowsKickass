@@ -4,7 +4,7 @@
 // @description Add icon for KickAss.to torrent tracker for each TV series
 // @include     http://myshows.me/profile/
 // @match       http://myshows.me/profile/
-// @version     0.5.5
+// @version     0.5.6
 // @grant       none
 // ==/UserScript==
 
@@ -21,7 +21,11 @@ $(function(){
                 "Bishōjo Senshi Sailor Moon Crystal": "https://kat.cr/pretty-guardian-sailor-moon-crystal-a37367/",
                 "The Simpsons": "https://kat.cr/the-simpsons-tv3606/",
                 "Family Guy": "https://kat.cr/family-guy-tv1873/",
-                "Robot Chicken": "https://kat.cr/robot-chicken-tv2863/"
+                "Robot Chicken": "https://kat.cr/robot-chicken-tv2863/",
+                "Gotham": "https://kat.cr/gotham-tv19653/",
+                "Gravity Falls": "https://kat.cr/gravity-falls-tv14509/",
+                "Minority Report": "https://kat.cr/minority-report-tv23200/",
+                "Supergirl": "https://kat.cr/supergirl-tv23196/"
             };
             var name = $(this).text();
             var tv_series=encodeURIComponent(name.replace(/[^a-z0-9\s]/gi, ''));
