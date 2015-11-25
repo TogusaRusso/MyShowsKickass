@@ -4,7 +4,7 @@
 // @description Add icon for KickAss.to torrent tracker for each TV series
 // @include     http://myshows.me/profile/
 // @match       http://myshows.me/profile/
-// @version     0.5.7
+// @version     0.5.8
 // @grant       none
 // ==/UserScript==
 
@@ -26,7 +26,11 @@ $(function(){
                 "Gravity Falls": "https://kat.cr/gravity-falls-tv14509/",
                 "Minority Report": "https://kat.cr/minority-report-tv23200/",
                 "Supergirl": "https://kat.cr/supergirl-tv23196/",
-                "Limitless": "https://kat.cr/limitless-tv23197/"
+                "Limitless": "https://kat.cr/limitless-tv23197/",
+                "Moonbeam City": "https://kat.cr/moonbeam-city-tv24420/",
+                "Star Wars Rebels": "https://kat.cr/star-wars-rebels-tv19586/",
+                "Teen Titans Go!": "https://kat.cr/teen-titans-go-tv15682/",
+                "South Park": "https://kat.cr/south-park-tv3010/"
             };
             var name = $(this).text();
             var tv_series=encodeURIComponent(name.replace(/[^a-z0-9\s]/gi, ''));
