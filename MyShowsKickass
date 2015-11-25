@@ -25,7 +25,8 @@ $(function(){
                 "Gotham": "https://kat.cr/gotham-tv19653/",
                 "Gravity Falls": "https://kat.cr/gravity-falls-tv14509/",
                 "Minority Report": "https://kat.cr/minority-report-tv23200/",
-                "Supergirl": "https://kat.cr/supergirl-tv23196/"
+                "Supergirl": "https://kat.cr/supergirl-tv23196/",
+                "Limitless": "https://kat.cr/limitless-tv23197/"
             };
             var name = $(this).text();
             var tv_series=encodeURIComponent(name.replace(/[^a-z0-9\s]/gi, ''));
