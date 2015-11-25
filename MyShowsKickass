@@ -29,7 +29,7 @@ $(function(){
                 "Limitless": "https://kat.cr/limitless-tv23197/",
                 "Moonbeam City": "https://kat.cr/moonbeam-city-tv24420/",
                 "Star Wars Rebels": "https://kat.cr/star-wars-rebels-tv19586/",
-                "Teen Titans Go!": "https://kat.cr/teen-titans-go-tv15682/",
+                "Teen Titans Go": "https://kat.cr/teen-titans-go-tv15682/",
                 "South Park": "https://kat.cr/south-park-tv3010/"
             };
             var name = $(this).text();
