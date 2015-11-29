@@ -4,7 +4,7 @@
 // @description Add icon for KickAss.to torrent tracker for each TV series
 // @include     http://myshows.me/profile/
 // @match       http://myshows.me/profile/
-// @version     0.5.10
+// @version     0.5.11
 // @grant       none
 // ==/UserScript==
 
