@@ -4,7 +4,7 @@
 // @description Add icon for KickAss.to torrent tracker for each TV series
 // @include     http://myshows.me/profile/
 // @match       http://myshows.me/profile/
-// @version     0.5.15
+// @version     0.5.16
 // @grant       none
 // ==/UserScript==
 
@@ -35,7 +35,8 @@ $(function(){
                 "Regular Show": "https://kat.cr/regular-show-tv12409/",
                 "The Flash": "https://kat.cr/the-flash-2014-tv19136/",
                 "Marvel's Agents of S.H.I.E.L.D": "https://kat.cr/marvel-s-agents-of-s-h-i-e-l-d-tv16547/",
-                "Arrow": "https://kat.cr/arrow-tv14092/"
+                "Arrow": "https://kat.cr/arrow-tv14092/",
+                "Adventure Time with Finn and Jake": "https://kat.cr/adventure-time-with-finn-and-jake-tv10922/"
             };
             var name = $(this).text();
             var tv_series=encodeURIComponent(name.replace(/[^a-z0-9\s]/gi, ''));
