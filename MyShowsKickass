@@ -4,7 +4,7 @@
 // @description Add icon for KickAss.to torrent tracker for each TV series
 // @include     http://myshows.me/profile/
 // @match       http://myshows.me/profile/
-// @version     0.5.17
+// @version     0.5.18
 // @grant       none
 // ==/UserScript==
 
@@ -37,7 +37,8 @@ $(function(){
                 "Marvel's Agents of S.H.I.E.L.D": "https://kat.cr/marvel-s-agents-of-s-h-i-e-l-d-tv16547/",
                 "Arrow": "https://kat.cr/arrow-tv14092/",
                 "Adventure Time with Finn and Jake": "https://kat.cr/adventure-time-with-finn-and-jake-tv10922/",
-                "The Expanse": "https://kat.cr/the-expanse-tv24428/"
+                "The Expanse": "https://kat.cr/the-expanse-tv24428/",
+                "The Big Bang Theory": "https://kat.cr/the-big-bang-theory-tv4827/"
             };
             var name = $(this).text();
             var tv_series=encodeURIComponent(name.replace(/[^a-z0-9\s]/gi, ''));
