@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.5.22
+// @version     0.5.23
 // @grant       none
 // ==/UserScript==
 
@@ -41,7 +41,8 @@ $(function(){
                 "Adventure Time with Finn and Jake": "https://kat.cr/adventure-time-with-finn-and-jake-tv10922/",
                 "The Expanse": "https://kat.cr/the-expanse-tv24428/",
                 "The Big Bang Theory": "https://kat.cr/the-big-bang-theory-tv4827/",
-                "Steven Universe": "https://kat.cr/steven-universe-tv17129/"
+                "Steven Universe": "https://kat.cr/steven-universe-tv17129/",
+                "Galavant": "https://kat.cr/galavant-tv21259/"
             };
             var name = $(this).text();
             var tv_series=encodeURIComponent(name.replace(/[^a-z0-9\s]/gi, ''));
