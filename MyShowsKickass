@@ -44,7 +44,9 @@ $(function(){
                 "Steven Universe": "https://kat.cr/steven-universe-tv17129/",
                 "Galavant": "https://kat.cr/galavant-tv21259/",
                 "Heroes Reborn": "https://kat.cr/heroes-reborn-tv23795/",
-                "Teenage Mutant Ninja Turtles": "https://kat.cr/teenage-mutant-ninja-turtles-2012-tv12990/"
+                "Teenage Mutant Ninja Turtles": "https://kat.cr/teenage-mutant-ninja-turtles-2012-tv12990/",
+                "American Dad": "https://kat.cr/american-dad-tv1260/",
+                "Wander Over Yonder": "https://kat.cr/wander-over-yonder-tv16530/"
             };
             var name = $(this).text();
             var tv_series=encodeURIComponent(name.replace(/[^a-z0-9\s]/gi, ''));
