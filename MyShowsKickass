@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.5.28
+// @version     0.5.30
 // @grant       none
 // ==/UserScript==
 
