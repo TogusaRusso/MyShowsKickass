@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.5.29
+// @version     0.5.28
 // @grant       none
 // ==/UserScript==
 
@@ -50,7 +50,8 @@ $(function(){
                 "Marvel's Agent Carter": "https://kat.cr/marvel-s-agent-carter-tv21095/",
                 "DC's Legends of Tomorrow": "https://kat.cr/dc-s-legends-of-tomorrow-tv23175/",
                 "Colony": "https://kat.cr/colony-tv23620/",
-                "Archer": "https://kat.cr/archer-2009-tv10915/"
+                "Archer": "https://kat.cr/archer-2009-tv10915/",
+                "12 Monkeys": "https://kat.cr/12-monkeys-tv21045/"
             };
             var name = $(this).text();
             var tv_series=encodeURIComponent(name.replace(/[^a-z0-9\s]/gi, ''));
