@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.5.30
+// @version     0.6.1
 // @grant       none
 // ==/UserScript==
 
@@ -15,49 +15,55 @@ $(function(){
     $('div.plateHint').remove();
     $("span[class^='subHeader show'").after(function(){
             var tv_urls = {
-                "Doctor Who": "https://kat.cr/doctor-who-2005-tv1763/",
-                "My Little Pony: Friendship is Magic": "https://kat.cr/my-little-pony-friendship-is-magic-tv12949/",
-                "Guardians of the Galaxy": "https://kat.cr/marvel-s-guardians-of-the-galaxy-tv24154/",
-                "Ash vs Evil Dead": "https://kat.cr/ash-vs-evil-dead-tv25084/",
-                "Jekyll & Hyde": "https://kat.cr/jekyll-hyde-tv25058/",
-                "Jekyll and Hyde": "https://kat.cr/jekyll-hyde-tv25058/",
-                "Bishōjo Senshi Sailor Moon Crystal": "https://kat.cr/pretty-guardian-sailor-moon-crystal-a37367/",
-                "The Simpsons": "https://kat.cr/the-simpsons-tv3606/",
-                "Family Guy": "https://kat.cr/family-guy-tv1873/",
-                "Robot Chicken": "https://kat.cr/robot-chicken-tv2863/",
-                "Gotham": "https://kat.cr/gotham-tv19653/",
-                "Gravity Falls": "https://kat.cr/gravity-falls-tv14509/",
-                "Minority Report": "https://kat.cr/minority-report-tv23200/",
-                "Supergirl": "https://kat.cr/supergirl-tv23196/",
-                "Limitless": "https://kat.cr/limitless-tv23197/",
-                "Moonbeam City": "https://kat.cr/moonbeam-city-tv24420/",
-                "Star Wars Rebels": "https://kat.cr/star-wars-rebels-tv19586/",
-                "South Park": "https://kat.cr/south-park-tv3010/",
-                "Elementary": "https://kat.cr/elementary-tv14108/",
-                "Regular Show": "https://kat.cr/regular-show-tv12409/",
-                "The Flash": "https://kat.cr/the-flash-2014-tv19136/",
-                "Marvel's Agents of S.H.I.E.L.D": "https://kat.cr/marvel-s-agents-of-s-h-i-e-l-d-tv16547/",
-                "Arrow": "https://kat.cr/arrow-tv14092/",
-                "Adventure Time with Finn and Jake": "https://kat.cr/adventure-time-with-finn-and-jake-tv10922/",
-                "The Expanse": "https://kat.cr/the-expanse-tv24428/",
-                "The Big Bang Theory": "https://kat.cr/the-big-bang-theory-tv4827/",
-                "Steven Universe": "https://kat.cr/steven-universe-tv17129/",
-                "Galavant": "https://kat.cr/galavant-tv21259/",
-                "Heroes Reborn": "https://kat.cr/heroes-reborn-tv23795/",
-                "Teenage Mutant Ninja Turtles": "https://kat.cr/teenage-mutant-ninja-turtles-2012-tv12990/",
-                "American Dad": "https://kat.cr/american-dad-tv1260/",
-                "Wander Over Yonder": "https://kat.cr/wander-over-yonder-tv16530/",
-                "Marvel's Agent Carter": "https://kat.cr/marvel-s-agent-carter-tv21095/",
-                "DC's Legends of Tomorrow": "https://kat.cr/dc-s-legends-of-tomorrow-tv23175/",
-                "Colony": "https://kat.cr/colony-tv23620/",
-                "Archer": "https://kat.cr/archer-2009-tv10915/",
-                "12 Monkeys": "https://kat.cr/12-monkeys-tv21045/"
+                "Doctor Who": "https://zooqle.com/tv/doctor-who-1863/",
+                "My Little Pony: Friendship is Magic": "https://zooqle.com/tv/my-little-pony-friendship-is-magic-q1x/",
+                "Guardians of the Galaxy": "https://zooqle.com/tv/marvel-s-guardians-of-the-galaxy-1cr1/",
+                "Ash vs Evil Dead": "https://zooqle.com/tv/ash-vs-evil-dead-1c1k/",
+                "Jekyll & Hyde": "https://zooqle.com/tv/jekyll-and-hyde-10fs/",
+                "Jekyll and Hyde": "https://zooqle.com/tv/jekyll-and-hyde-10fs/",
+                "Bishōjo Senshi Sailor Moon Crystal": "http://horriblesubs.info/shows/sailor-moon-crystal/",
+                "The Simpsons": "https://zooqle.com/tv/the-simpsons-co/",
+                "Family Guy": "https://zooqle.com/tv/family-guy-13u/",
+                "Robot Chicken": "https://zooqle.com/tv/robot-chicken-jp/",
+                "Gotham": "https://zooqle.com/tv/gotham-1auc/",
+                "Gravity Falls": "https://zooqle.com/tv/gravity-falls-ux7/",
+                "Minority Report": "https://zooqle.com/tv/minority-report-1cqv/",
+                "Supergirl": "https://zooqle.com/tv/supergirl-1cdc/",
+                "Limitless": "https://zooqle.com/tv/limitless-1cdb/",
+                "Moonbeam City": "https://rarbg.to/tv/tt3906560/",
+                "Star Wars Rebels": "https://zooqle.com/tv/star-wars-rebels-1aq2/",
+                "South Park": "https://zooqle.com/tv/south-park-1ou/",
+                "Elementary": "https://zooqle.com/tv/elementary-13b/",
+                "Regular Show": "https://zooqle.com/tv/regular-show-o0s/",
+                "The Flash": "https://zooqle.com/tv/the-flash-1av3/",
+                "Marvel's Agents of S.H.I.E.L.D": "https://zooqle.com/tv/marvel-s-agents-of-s-h-i-e-l-d-12z/",
+                "Arrow": "https://zooqle.com/tv/arrow-138/",
+                "Adventure Time with Finn and Jake": "https://zooqle.com/tv/adventure-time-brw/",
+                "The Expanse": "https://zooqle.com/tv/the-expanse-1d3r/",
+                "The Big Bang Theory": "https://zooqle.com/tv/the-big-bang-theory-13e/",
+                "Steven Universe": "https://zooqle.com/tv/steven-universe-1b7b/",
+                "Galavant": "https://zooqle.com/tv/galavant-1blu/",
+                "Heroes Reborn": "https://zooqle.com/tv/heroes-reborn-1ayi/",
+                "Teenage Mutant Ninja Turtles": "https://zooqle.com/tv/teenage-mutant-ninja-turtles-13zd/",
+                "American Dad": "https://zooqle.com/tv/american-dad-13t/",
+                "Wander Over Yonder": "https://zooqle.com/tv/wander-over-yonder-yqd/",
+                "Marvel's Agent Carter": "https://zooqle.com/tv/marvel-s-agent-carter-1bhq/",
+                "DC's Legends of Tomorrow": "https://zooqle.com/tv/dc-s-legends-of-tomorrow-1cc3/",
+                "Colony": "https://zooqle.com/tv/colony-1ci2/",
+                "Archer": "https://zooqle.com/tv/archer-7xn/",
+                "12 Monkeys": "https://zooqle.com/tv/12-monkeys-1b10/",
+                "We Bare Bears": "https://zooqle.com/tv/we-bare-bears-1cx5/",
+                "The Powerpuff Girls": "https://zooqle.com/tv/the-powerpuff-girls-1f1h/",
+                "Mighty Magiswords": "https://zooqle.com/search?q=Mighty+Magiswords",
+                "Flip Flappers": "http://horriblesubs.info",
+                "Long Raiders": "http://horriblesubs.info",
+                
             };
             var name = $(this).text();
             var tv_series=encodeURIComponent(name.replace(/[^a-z0-9\s]/gi, ''));
-            var url = 'https://kickass.to/usearch/'+ tv_series + '/?field=time_add&sorder=desc';
+            var url = 'https://zooqle.com/search?q='+ tv_series;
             if (name in tv_urls) url = tv_urls[name];
-            return '<a target="_blank" title="kickass.to" href="'+ url + '">   <img src="https://kat.cr/content/images/logos/kickasstorrents_48x48.png" height="24"  width="24"></a>';
+            return '<a target="_blank" title="kickass.to" href="'+ url + '">   <img src="https://zooqle.com/img/zq-favicon32.png"></a>';
      }); 
 
 });
