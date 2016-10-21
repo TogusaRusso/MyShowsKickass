@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.6.2
+// @version     0.6.3
 // @grant       none
 // ==/UserScript==
 
@@ -57,7 +57,8 @@ $(function(){
                 "Mighty Magiswords": "https://zooqle.com/search?q=Mighty+Magiswords",
                 "Flip Flappers": "http://horriblesubs.info",
                 "Long Raiders": "http://horriblesubs.info",
-                "Teen Titans Go!": "https://zooqle.com/tv/teen-titans-go-ytw/"
+                "Teen Titans Go!": "https://zooqle.com/tv/teen-titans-go-ytw/",
+                "Black Mirror": "https://zooqle.com/tv/black-mirror-wex/"
             };
             var headerName = $(this).find('span.showHeaderName > a');
             var subHeader = $(this).find('span.subHeader');
