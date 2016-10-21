@@ -6,14 +6,14 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.6.1
+// @version     0.6.2
 // @grant       none
 // ==/UserScript==
 
 
 $(function(){
     $('div.plateHint').remove();
-    $("span[class^='subHeader show'").after(function(){
+    $("h2.showHeader").each(function(){
             var tv_urls = {
                 "Doctor Who": "https://zooqle.com/tv/doctor-who-1863/",
                 "My Little Pony: Friendship is Magic": "https://zooqle.com/tv/my-little-pony-friendship-is-magic-q1x/",
@@ -57,13 +57,16 @@ $(function(){
                 "Mighty Magiswords": "https://zooqle.com/search?q=Mighty+Magiswords",
                 "Flip Flappers": "http://horriblesubs.info",
                 "Long Raiders": "http://horriblesubs.info",
-                
+                "Teen Titans Go!": "https://zooqle.com/tv/teen-titans-go-ytw/"
             };
-            var name = $(this).text();
+            var headerName = $(this).find('span.showHeaderName > a');
+            var subHeader = $(this).find('span.subHeader');
+            var name = subHeader.text();
+            if (name === '') name = headerName.text();
             var tv_series=encodeURIComponent(name.replace(/[^a-z0-9\s]/gi, ''));
             var url = 'https://zooqle.com/search?q='+ tv_series;
             if (name in tv_urls) url = tv_urls[name];
-            return '<a target="_blank" title="kickass.to" href="'+ url + '">   <img src="https://zooqle.com/img/zq-favicon32.png"></a>';
+            $(this).append('<a target="_blank" title="zooqle.com" href="'+ url + '"><img src="https://zooqle.com/img/zq-favicon16.png"></a>');
      }); 
 
 });
