@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.6.7
+// @version     0.6.8
 // @grant       none
 // ==/UserScript==
 
@@ -57,6 +57,7 @@ $(function(){
                 "Mighty Magiswords": "https://zooqle.com/search?q=Mighty+Magiswords",
                 "Flip Flappers": "http://horriblesubs.info/lib/search.php?value=Flip+Flappers",
                 "Long Riders!": "http://horriblesubs.info/lib/search.php?value=Long+Riders",
+                "Long Riders": "http://horriblesubs.info/lib/search.php?value=Long+Riders",
                 "Teen Titans Go!": "https://zooqle.com/tv/teen-titans-go-ytw/",
                 "Black Mirror": "https://zooqle.com/tv/black-mirror-wex/",
                 "Vixen": "http://kisscartoon.me/Cartoon/Vixen-Season-2/",
