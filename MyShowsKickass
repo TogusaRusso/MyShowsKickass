@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.6.4
+// @version     0.6.5
 // @grant       none
 // ==/UserScript==
 
@@ -61,7 +61,7 @@ $(function(){
                 "Black Mirror": "https://zooqle.com/tv/black-mirror-wex/",
                 "Vixen": "http://kisscartoon.me/Cartoon/Vixen-Season-2/",
                 "Drifters": "http://horriblesubs.info/lib/search.php?value=Drifters",
-                "ClassicaLoid": "http://horriblesubs.info/lib/search.php?ClassicaLoid"
+                "ClassicaLoid": "http://horriblesubs.info/lib/search.php?value=ClassicaLoid"
             };
             var headerName = $(this).find('span.showHeaderName > a');
             var subHeader = $(this).find('span.subHeader');
