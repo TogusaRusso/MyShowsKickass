@@ -55,10 +55,13 @@ $(function(){
                 "We Bare Bears": "https://zooqle.com/tv/we-bare-bears-1cx5/",
                 "The Powerpuff Girls": "https://zooqle.com/tv/the-powerpuff-girls-1f1h/",
                 "Mighty Magiswords": "https://zooqle.com/search?q=Mighty+Magiswords",
-                "Flip Flappers": "http://horriblesubs.info",
-                "Long Raiders": "http://horriblesubs.info",
+                "Flip Flappers": "http://horriblesubs.info/lib/search.php?value=Flip+Flappers",
+                "Long Raiders": "http://horriblesubs.info/lib/search.php?value=Long+Raiders",
                 "Teen Titans Go!": "https://zooqle.com/tv/teen-titans-go-ytw/",
-                "Black Mirror": "https://zooqle.com/tv/black-mirror-wex/"
+                "Black Mirror": "https://zooqle.com/tv/black-mirror-wex/",
+                "Vixen": "http://kisscartoon.me/Cartoon/Vixen-Season-2/",
+                "Drifters": "http://horriblesubs.info/lib/search.php?value=Drifters",
+                "ClassicaLoid": "http://horriblesubs.info/lib/search.php?ClassicaLoid"
             };
             var headerName = $(this).find('span.showHeaderName > a');
             var subHeader = $(this).find('span.subHeader');
