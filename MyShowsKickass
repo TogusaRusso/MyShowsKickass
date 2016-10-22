@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.6.5
+// @version     0.6.6
 // @grant       none
 // ==/UserScript==
 
@@ -56,12 +56,13 @@ $(function(){
                 "The Powerpuff Girls": "https://zooqle.com/tv/the-powerpuff-girls-1f1h/",
                 "Mighty Magiswords": "https://zooqle.com/search?q=Mighty+Magiswords",
                 "Flip Flappers": "http://horriblesubs.info/lib/search.php?value=Flip+Flappers",
-                "Long Raiders": "http://horriblesubs.info/lib/search.php?value=Long+Raiders",
+                "Long Raiders!": "http://horriblesubs.info/lib/search.php?value=Long+Raiders",
                 "Teen Titans Go!": "https://zooqle.com/tv/teen-titans-go-ytw/",
                 "Black Mirror": "https://zooqle.com/tv/black-mirror-wex/",
                 "Vixen": "http://kisscartoon.me/Cartoon/Vixen-Season-2/",
                 "Drifters": "http://horriblesubs.info/lib/search.php?value=Drifters",
-                "ClassicaLoid": "http://horriblesubs.info/lib/search.php?value=ClassicaLoid"
+                "ClassicaLoid": "http://horriblesubs.info/lib/search.php?value=ClassicaLoid",
+                "Izetta: The Last Witch": "http://horriblesubs.info/lib/search.php?value=Shuumatsu+no+Izetta"
             };
             var headerName = $(this).find('span.showHeaderName > a');
             var subHeader = $(this).find('span.subHeader');
