@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.6.8
+// @version     0.6.9
 // @grant       none
 // ==/UserScript==
 
@@ -63,7 +63,8 @@ $(function(){
                 "Vixen": "http://kisscartoon.me/Cartoon/Vixen-Season-2/",
                 "Drifters": "http://horriblesubs.info/lib/search.php?value=Drifters",
                 "ClassicaLoid": "http://horriblesubs.info/lib/search.php?value=ClassicaLoid",
-                "Izetta: The Last Witch": "http://horriblesubs.info/lib/search.php?value=Shuumatsu+no+Izetta"
+                "Izetta: The Last Witch": "http://horriblesubs.info/lib/search.php?value=Shuumatsu+no+Izetta",
+                "Westworld": "https://zooqle.com/tv/westworld-1csv/"
             };
             var headerName = $(this).find('span.showHeaderName > a');
             var subHeader = $(this).find('span.subHeader');
