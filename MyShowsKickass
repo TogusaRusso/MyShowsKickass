@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.6.9
+// @version     0.6.10
 // @grant       none
 // ==/UserScript==
 
@@ -64,7 +64,9 @@ $(function(){
                 "Drifters": "http://horriblesubs.info/lib/search.php?value=Drifters",
                 "ClassicaLoid": "http://horriblesubs.info/lib/search.php?value=ClassicaLoid",
                 "Izetta: The Last Witch": "http://horriblesubs.info/lib/search.php?value=Shuumatsu+no+Izetta",
-                "Westworld": "https://zooqle.com/tv/westworld-1csv/"
+                "Westworld": "https://zooqle.com/tv/westworld-1csv/",
+                "Red Dwarf": "https://zooqle.com/tv/red-dwarf-92/",
+                "Humans": "https://zooqle.com/tv/humans-1ch2/"
             };
             var headerName = $(this).find('span.showHeaderName > a');
             var subHeader = $(this).find('span.subHeader');
