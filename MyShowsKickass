@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.6.10
+// @version     0.6.11
 // @grant       none
 // ==/UserScript==
 
@@ -36,7 +36,7 @@ $(function(){
                 "Elementary": "https://zooqle.com/tv/elementary-13b/",
                 "Regular Show": "https://zooqle.com/tv/regular-show-o0s/",
                 "The Flash": "https://zooqle.com/tv/the-flash-1av3/",
-                "Marvel's Agents of S.H.I.E.L.D": "https://zooqle.com/tv/marvel-s-agents-of-s-h-i-e-l-d-12z/",
+                "Marvel's Agents of S.H.I.E.L.D.": "https://zooqle.com/tv/marvel-s-agents-of-s-h-i-e-l-d-12z/",
                 "Arrow": "https://zooqle.com/tv/arrow-138/",
                 "Adventure Time with Finn and Jake": "https://zooqle.com/tv/adventure-time-brw/",
                 "The Expanse": "https://zooqle.com/tv/the-expanse-1d3r/",
