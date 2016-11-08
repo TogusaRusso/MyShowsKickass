@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.6.11
+// @version     0.6.12
 // @grant       none
 // ==/UserScript==
 
@@ -45,7 +45,7 @@ $(function(){
                 "Galavant": "https://zooqle.com/tv/galavant-1blu/",
                 "Heroes Reborn": "https://zooqle.com/tv/heroes-reborn-1ayi/",
                 "Teenage Mutant Ninja Turtles": "https://zooqle.com/tv/teenage-mutant-ninja-turtles-13zd/",
-                "American Dad": "https://zooqle.com/tv/american-dad-13t/",
+                "American Dad!": "https://zooqle.com/tv/american-dad-13t/",
                 "Wander Over Yonder": "https://zooqle.com/tv/wander-over-yonder-yqd/",
                 "Marvel's Agent Carter": "https://zooqle.com/tv/marvel-s-agent-carter-1bhq/",
                 "DC's Legends of Tomorrow": "https://zooqle.com/tv/dc-s-legends-of-tomorrow-1cc3/",
