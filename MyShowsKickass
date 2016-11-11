@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.6.12
+// @version     0.6.13
 // @grant       none
 // ==/UserScript==
 
@@ -52,9 +52,9 @@ $(function(){
                 "Colony": "https://zooqle.com/tv/colony-1ci2/",
                 "Archer": "https://zooqle.com/tv/archer-7xn/",
                 "12 Monkeys": "https://zooqle.com/tv/12-monkeys-1b10/",
-                "We Bare Bears": "https://zooqle.com/tv/we-bare-bears-1cx5/",
+                "We Bare Bears": "https://rarbg.to/torrents.php?imdb=tt4839610",
                 "The Powerpuff Girls": "https://zooqle.com/tv/the-powerpuff-girls-1f1h/",
-                "Mighty Magiswords": "https://zooqle.com/search?q=Mighty+Magiswords",
+                "Mighty Magiswords": "https://rarbg.to/torrents.php?imdb=tt4847134",
                 "Flip Flappers": "http://horriblesubs.info/lib/search.php?value=Flip+Flappers",
                 "Long Riders!": "http://horriblesubs.info/lib/search.php?value=Long+Riders",
                 "Long Riders": "http://horriblesubs.info/lib/search.php?value=Long+Riders",
