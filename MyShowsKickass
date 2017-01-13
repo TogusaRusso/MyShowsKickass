@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.6.14
+// @version     0.6.15
 // @grant       none
 // ==/UserScript==
 
@@ -67,7 +67,7 @@ $(function(){
                 "Westworld": "https://zooqle.com/tv/westworld-1csv/",
                 "Red Dwarf": "https://zooqle.com/tv/red-dwarf-92/",
                 "Humans": "https://zooqle.com/tv/humans-1ch2/",
-                "Kono Subarashii Sekai ni Shukufuku o!": "http://horriblesubs.info/lib/search.php?value=Kono+Subarshii+Sekai",
+                "Kono Subarashii Sekai ni Shukufuku o!": "http://horriblesubs.info/lib/search.php?value=Kono+Subarashii+Sekai+ni+Shukufuku+wo!",
                 "Miss Kobayashi's Dragon Maid": "http://horriblesubs.info/lib/search.php?value=Chi+no+Maid+Dragon",
                 "Sherlock": "https://zooqle.com/tv/sherlock-fcd/"
             };
