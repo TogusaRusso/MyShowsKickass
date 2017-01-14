@@ -6,7 +6,7 @@
 // @include     https://myshows.me/profile/
 // @match       http://myshows.me/profile/
 // @match       https://myshows.me/profile/
-// @version     0.6.15
+// @version     0.6.17
 // @grant       none
 // ==/UserScript==
 
@@ -69,6 +69,7 @@ $(function(){
                 "Humans": "https://zooqle.com/tv/humans-1ch2/",
                 "Kono Subarashii Sekai ni Shukufuku o!": "http://horriblesubs.info/lib/search.php?value=Kono+Subarashii+Sekai+ni+Shukufuku+wo!",
                 "Miss Kobayashi's Dragon Maid": "http://horriblesubs.info/lib/search.php?value=Chi+no+Maid+Dragon",
+                "Minami Kamakura High School Girls Cycling Club": "http://horriblesubs.info/lib/search.php?value=Minami+Kamakura",
                 "Sherlock": "https://zooqle.com/tv/sherlock-fcd/"
             };
             var headerName = $(this).find('span.showHeaderName > a');
